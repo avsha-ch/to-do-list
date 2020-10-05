@@ -34,3 +34,38 @@
 ul.theList {
     padding: 0;
 }
+
+.todoListMain .listItems li {
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    transition: background-color .2s ease-out;
+}
+
+.todoListMain .listItems .task:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.todoListMain .listItems .taskDone {
+    color: #333;
+    background-color: lightgreen;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    transition: background-color .2s ease-out;
+}
+
+.todoListMain .listItems .taskDone:hover {
+    color: #333;
+    background-color: pink;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    transition: background-color .2s ease-out;
+}
