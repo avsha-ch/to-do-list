@@ -11,8 +11,10 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,23 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avsha-ch/to-do-list.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avsha-ch/to-do-list/issues"
-  },
-  "homepage": "https://github.com/avsha-ch/to-do-list#readme"
+  }
 }
