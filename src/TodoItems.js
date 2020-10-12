@@ -20,8 +20,12 @@ class TodoItems extends Component {
     }
 
     render() {
-        let todoEntries = this.props.entries;
+        let todoEntries = this.props.search.length ? this.props.search : this.props.entries;
+        //let todoSearch = this.props.search;
+        // let listItems = (todoSearch && todoSearch.length) ?
+        //                 todoEntries.map(this.createTasks) : todoSearch.map(this.createTasks);
         let listItems = todoEntries.map(this.createTasks);
+        // let searchItems = todoSearch.map(this.createTasks);
 
         return (
             <ul className="listItems">
